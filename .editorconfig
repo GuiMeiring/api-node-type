@@ -1,0 +1,31 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Configurações gerais
+root = true
+
+# Configurações específicas para arquivos JavaScript
+[*.js]
+indent_style = space
+indent_size = 2
+
+# Configurações específicas para arquivos TypeScript
+[*.test.ts]
+indent_style = space
+indent_size = 2
+
+[*.ts]
+indent_style = space
+indent_size = 2
+
+# Defina o estilo preferido para aspas
+
+# Defina o estilo preferido para aspas
+[*.js]
+quote_type = single
+
+[*.ts]
+quote_type = single
+
+# Configuração para evitar quebras de linha após vírgulas
+[*.{js,ts}]
+max_line_length = 9999
